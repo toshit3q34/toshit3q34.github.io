@@ -12,7 +12,7 @@ competitive programming. Except for technical stuff, I enjoy playing
 guitar. I am open to any opportunity for Winter 2025 & Summer 2026. 
 Feel free to approach me through the emails given.
 
-## Techinical Interests
+## Technical Interests
 
 - **Competitive Programming :** Coming up with efficient algorithms and accurate implementations
 is always fun. I love giving contests and participating with my team in nation wide competitions.
