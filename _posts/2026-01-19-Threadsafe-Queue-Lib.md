@@ -2,7 +2,7 @@
 title: "ThreadsafeQueueLib: Design and Motivation of Concurrent Queues in C++"
 date: 2025-01-19
 author: "Toshit Jain"
-words_per_minute: 100
+words_per_minute: 50
 read_time: true
 tags:
   - C++
@@ -160,7 +160,6 @@ This model is common in:
 
 - Logging systems
 - Event queues
-- Producer fan-in architectures
 
 It requires safe atomic coordination among multiple producer threads.
 
@@ -196,7 +195,7 @@ Lock-free queues provide progress guarantees such as **lock-freedom** or **wait-
 - Memory-ordering semantics
 - Careful ABA prevention strategies
 
-Lock-free queues excel in high-performance systems and avoid blocking delays. Due to their superior scalability and suitability for multicore environments, this project primarily focuses on **lock-free implementations**.
+Lock-free queues excel in high-performance systems and avoid blocking delays. Due to their superior scalability and suitability for multicore environments, this project primarily focuses on **lock-free implementations** with a **bounded implementation** as well for the sake of learning.
 
 ---
 
@@ -207,7 +206,6 @@ Rather than designing separate runtime classes for SPSC, MPSC, MPMC, bounded, an
 By selecting queue characteristics at compile time, the compiler can:
 
 - Remove unused branches and modes
-- Inline critical operations
 - Apply aggressive optimizations
 - Generate highly specialized data structures for each use case
 
@@ -217,21 +215,34 @@ The user specifies the mode, capacity, concurrency type, and blocking behavior t
 
 ## Teams for the Project and Schedule
 
-This is the GitHub repository for the project. The repository is currently private and will be made public after **December 25th**.
+This is the GitHub repository (will add hyperlink later) for the project. The repository is currently private and will be made public after **TBD**. (I am currently figuring some things out about the implementation so once everything is final, I'll make it public.)
 
-Participants are divided into teams with assigned Points of Contact (POCs). Regular communication within teams is strongly encouraged to improve collaboration, reduce workload, and develop professional teamwork skills.
-
-While POCs are responsible for providing weekly updates, any member may reach out directly.
+Participants are divided into teams with assigned Points of Contact (POCs). These POCs are solely for the sake of building responsibility for the project.
 
 ### Team Assignments
 
 | Team | Members | POC |
 |-----|--------|-----|
-| Team A | Aryan Gupta, Naveen, Rishit, Tushar | Aryan Gupta |
-| Team B | Ritesh, Tushar, Abhigyan, Aryan Chakravorty | Ritesh |
-| Team C | Abhiraj, Avanish, Mehul, Rishit | Abhiraj |
+| Team A | Aryan Gupta, Naveen, Rishit, Parth | Aryan Gupta |
+| Team B | Ritesh, Abhiraj, Abhigyan, Ritwik, Prabhnoor | Ritesh |
+| Team C | Tushar, Avanish, Mehul, Aryan Chakravorty | Aryan Chakravorty |
 
 ---
+
+## Session Plans
+
+| Date | Time | Session Name |
+|-----|---------|-------------|
+| 22nd January 2026 | 9 PM to 10 PM | Concurrency, std::thread and more |
+| TBD | 9 PM to 10 PM | Shared data, race conditions and std::mutex |
+| TBD | 9 PM to 10 PM | Synchronization and Condition variables |
+| TBD | 9 PM to 10 PM | C++ Memory Model and std::atomic - Part 1 |
+| TBD | 9 PM to 10 PM | C++ Memory Model and std::atomic - Part 2 |
+| TBD | 9 PM to 10 PM | Project Description |
+| TBD | 9 PM to 10 PM | Buffer |
+| TBD | 9 PM to 10 PM | Template Metaprogramming - Part 1 (later) |
+| TBD | 9 PM to 10 PM | Template Metaprogramming - Part 2 (later) |
+| TBD | 9 PM to 10 PM | Template Metaprogramming - Part 3 (later) |
 
 ### Weekly Targets
 
@@ -239,9 +250,13 @@ While POCs are responsible for providing weekly updates, any member may reach ou
 |-----|---------|-------------|
 | Week 1 | 8th Dec ’25 – 14th Dec ’25 | Complete CPP101 (All Teams) |
 | Week 2 | 15th Dec ’25 – 21st Dec ’25 | Complete CPP101 (All Teams) |
+| Week 3 | 22nd Dec ’25 – 28th Dec ’25 | Complete CPP101 (All Teams) |
+| Week 4 | 29th Dec ’25 – 4th Jan ’26 | Complete CPP101 (All Teams) |
+| Week 5 | 5th Jan ’26 – 11th Jan ’26 | Complete CPP101 (All Teams) |
+| Week 6 | 12th Jan ’26 – 18th Jan ’26 | Complete CPP101 (All Teams) |
+| Week 7 | 19th Jan ’26 – 25th Jan ’26 | Sessions |
+| Week 8 | 26th Jan ’26 – 1st Feb ’26 | Sessions |
+
+I'll add weekly targets when we start the project. 
 
 ---
-
-## Conclusion
-
-ThreadsafeQueueLib aims to address fundamental shortcomings of standard C++ queue containers in concurrent environments. By focusing on lock-free designs, strong correctness guarantees, and compile-time specialization, the project lays the groundwork for high-performance queue implementations suitable for modern multicore systems.
