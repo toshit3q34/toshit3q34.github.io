@@ -1,6 +1,6 @@
 ---
 title: "ThreadsafeQueueLib: Design and Motivation of Concurrent Queues in C++"
-date: 2025-12-08
+date: 2025-01-19
 author: "Toshit Jain"
 words_per_minute: 100
 read_time: true
