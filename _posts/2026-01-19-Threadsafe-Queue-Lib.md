@@ -231,18 +231,18 @@ Participants are divided into teams with assigned Points of Contact (POCs). Thes
 
 ## Session Plans
 
-| Date | Time | Session Name |
+| Date | Time | Session Name | PDF Link |
 |-----|---------|-------------|
-| 22nd January 2026 | 9 PM to 10 PM | Concurrency, std::thread and more |
-| TBD | 9 PM to 10 PM | Shared data, race conditions and std::mutex |
-| TBD | 9 PM to 10 PM | Synchronization and Condition variables |
-| TBD | 9 PM to 10 PM | C++ Memory Model and std::atomic - Part 1 |
-| TBD | 9 PM to 10 PM | C++ Memory Model and std::atomic - Part 2 |
-| TBD | 9 PM to 10 PM | Project Description |
-| TBD | 9 PM to 10 PM | Buffer |
-| TBD | 9 PM to 10 PM | Template Metaprogramming - Part 1 (later) |
-| TBD | 9 PM to 10 PM | Template Metaprogramming - Part 2 (later) |
-| TBD | 9 PM to 10 PM | Template Metaprogramming - Part 3 (later) |
+| 22nd January 2026 | 9 PM to 10 PM | Concurrency, std::thread and more | [Link](https://drive.google.com/file/d/11gFZUBynv-fPv76cTk4gVV4K1qPlXqie/view?usp=sharing) |
+| 24th January 2026 | 3 PM to 4:30 PM | Shared data, race conditions and std::mutex | Link |
+| TBD | 9 PM to 10 PM | Synchronization and Condition variables | Link |
+| TBD | 9 PM to 10 PM | C++ Memory Model and std::atomic - Part 1 | Link |
+| TBD | 9 PM to 10 PM | C++ Memory Model and std::atomic - Part 2 | Link |
+| TBD | 9 PM to 10 PM | Project Description | Link |
+| TBD | 9 PM to 10 PM | Buffer | Link |
+| TBD | 9 PM to 10 PM | Template Metaprogramming - Part 1 (later) | Link |
+| TBD | 9 PM to 10 PM | Template Metaprogramming - Part 2 (later) | Link |
+| TBD | 9 PM to 10 PM | Template Metaprogramming - Part 3 (later) | Link |
 
 ### Weekly Targets
 
