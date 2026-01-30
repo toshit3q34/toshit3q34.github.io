@@ -233,9 +233,9 @@ Participants are divided into teams with assigned Points of Contact (POCs). Thes
 
 | Date | Time | Session Name | PDF Link | Video Link |
 |-----|---------|-------------|
-| 22nd January 2026 | 9 PM to 10 PM | Concurrency, std::thread and more | [Link](https://drive.google.com/file/d/11gFZUBynv-fPv76cTk4gVV4K1qPlXqie/view?usp=sharing) | Link |
+| 22nd January 2026 | 9 PM to 10 PM | Concurrency, std::thread and more | [Link](https://drive.google.com/file/d/11gFZUBynv-fPv76cTk4gVV4K1qPlXqie/view?usp=sharing) | - |
 | 24th January 2026 | 3 PM to 4:30 PM | Shared data, race conditions and std::mutex | [Link](https://drive.google.com/file/d/1Z2fe-kMtei0qSuh0_Cl4pnsMBKS3FWSG/view?usp=sharing) | [Link](https://drive.google.com/file/d/1aWfwzUj9FXg3cLgam6bMdRSHNm6anTr_/view?usp=sharing) |
-| TBD | 9 PM to 10 PM | Synchronization and Condition variables | Link | Link |
+| 28th January 2025 | 10.05 PM to 11.30 PM | Synchronization and Condition variables | [Link](https://drive.google.com/file/d/1UfJikRmcpD7pZXdVaVLGIEW_3_KSDoPz/view?usp=sharing) | [Link](https://drive.google.com/file/d/1iWKUjQOzADzqEfxXT3rEqYes8lwHwSBA/view?usp=sharing) |
 | TBD | 9 PM to 10 PM | C++ Memory Model and std::atomic - Part 1 | Link | Link |
 | TBD | 9 PM to 10 PM | C++ Memory Model and std::atomic - Part 2 | Link | Link |
 | TBD | 9 PM to 10 PM | Project Description | Link | Link |
