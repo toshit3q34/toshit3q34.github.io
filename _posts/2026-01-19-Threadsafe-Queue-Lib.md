@@ -237,7 +237,7 @@ Participants are divided into teams with assigned Points of Contact (POCs). Thes
 | 24th January 2026 | 3 PM to 4:30 PM | Shared data, race conditions and std::mutex | [Link](https://drive.google.com/file/d/1Z2fe-kMtei0qSuh0_Cl4pnsMBKS3FWSG/view?usp=sharing) | [Link](https://drive.google.com/file/d/1aWfwzUj9FXg3cLgam6bMdRSHNm6anTr_/view?usp=sharing) |
 | 28th January 2025 | 10.05 PM to 11.30 PM | Synchronization and Condition variables | [Link](https://drive.google.com/file/d/1UfJikRmcpD7pZXdVaVLGIEW_3_KSDoPz/view?usp=sharing) | [Link](https://drive.google.com/file/d/1iWKUjQOzADzqEfxXT3rEqYes8lwHwSBA/view?usp=sharing) |
 | Till 4th Feb 2026 | - | CppCon 2017 "C++ atomics, from basic to advanced. What do they really do?" | - | [Link](https://www.youtube.com/watch?v=ZQFzMfHIxng)
-| TBD | 9 PM to 10 PM | C++ Memory Model and std::atomic - Part 1 | Link | Link |
+| 21st Feb 2026 | 3.30 PM to 5.00 PM | C++ Memory Model and std::atomic - Part 1 | [Link](https://drive.google.com/file/d/1DXF0yfzV6Y7xqhvWU7t_eUg8v16Jl3Ji/view?usp=sharing) | [Link](https://drive.google.com/file/d/1N_qSr-fl-aBynR5yfkntmMPyqeRC_8Y2/view?usp=sharing) |
 | TBD | 9 PM to 10 PM | C++ Memory Model and std::atomic - Part 2 | Link | Link |
 | TBD | 9 PM to 10 PM | Project Description | Link | Link |
 | TBD | 9 PM to 10 PM | Buffer | Link | Link |
