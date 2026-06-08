@@ -1,5 +1,5 @@
 ---
-title: "ThreadsafeQueueLib: Design and Motivation of Concurrent Queues in C++"
+title: "ThreadsafeQueueLib: Learning Material for Juniors"
 date: 2025-01-19
 author: "Toshit Jain"
 words_per_minute: 50
