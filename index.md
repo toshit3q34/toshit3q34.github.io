@@ -10,7 +10,7 @@ Hi! I am Toshit Jain, a Computer Science Undergraduate at Indian Institute of Te
 Guwahati (IIT, Guwahati), Guwahati, India. I am a Quantitative Trading Intern at AlphaGrep.
 I am interested in problem solving, mathematics and 
 competitive programming. Except for technical stuff, I enjoy playing 
-guitar. I am open to any opportunity for Internship Opportunities for Winter 2026 & 
+guitar. I am open to any Internship Opportunities for Winter 2026 & 
 Full time Opportunities for 2027. 
 Feel free to approach me through the emails given.
 
