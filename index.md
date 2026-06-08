@@ -6,6 +6,8 @@ layout: home
 author_profile: true
 ---
 
+Note : This website is to be updated with latest stuff but you can look up my previous projects if you like :)
+
 Hi! I am Toshit Jain, a Computer Science Undergraduate at Indian Institute of Technology
 Guwahati (IIT, Guwahati), Guwahati, India. I am a Quantitative Trading Intern at AlphaGrep.
 I am interested in problem solving, mathematics and 
