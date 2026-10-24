@@ -203,7 +203,7 @@ Lock-free queues excel in high-performance systems and avoid blocking delays. Du
 
 ## Junior Mentoring stuff
 
-**Since I was also teaching C++ concurrency along with the project to my juniors in Coding Club, IIT Guwahati; I thought of adding all my video lectures and slides below. Feel free to watch :)
+**Since I was also teaching C++ concurrency along with the project to my juniors in Coding Club, IIT Guwahati; I thought of adding all my video lectures and slides below. Feel free to watch :)**
 
 | Date | Time | Session Name | PDF Link | Video Link |
 |-----|---------|-------------|
