@@ -11,6 +11,7 @@ tags :
 ---
 
 ## Overview
+
 This project involved adding an AF_XDP I/O backend to mTCP (NSDI'14), a high-performance user-level TCP stack. The implementation enables kernel-bypass packet I/O without relying on DPDK or requiring NIC unbinding.
 
 The backend incorporates per-flow traffic steering using XSK maps, per-core shared memory, and batched I/O processing. We validated the implementation on CloudLab bare-metal nodes, using a Toeplitz-key hash for reproducible flow-to-queue mapping.
