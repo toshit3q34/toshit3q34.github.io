@@ -1,6 +1,6 @@
 ---
 title: "ThreadsafeQueueLib: Learning Material for Juniors"
-date: 2025-01-19
+date: 2026-01-19
 author: "Toshit Jain"
 words_per_minute: 50
 read_time: true
@@ -17,6 +17,8 @@ tags:
 **ThreadsafeQueueLib** is a project developed under the Coding Club, IIT Guwahati, with the aim of designing and implementing a family of **thread-safe, lock-free, and wait-free queue data structures** in modern C++. The project is motivated by real-world concurrent systems where classical standard library containers such as `std::queue` fail under contention due to race conditions and lack of atomicity guarantees.
 
 This document outlines the motivation, background, concurrency issues in existing queues, and the design goals of the ThreadsafeQueueLib project.
+
+This is the [Github Repository](https://github.com/CPP-CodingClubIITG/ThreadsafeQueueLib)
 
 ---
 
@@ -199,37 +201,9 @@ Lock-free queues excel in high-performance systems and avoid blocking delays. Du
 
 ---
 
-## Template Metaprogramming for Compile-Time Optimisation
+## Junior Mentoring stuff
 
-Rather than designing separate runtime classes for SPSC, MPSC, MPMC, bounded, and unbounded variants, which would lead to code duplication and runtime overhead, this project uses **C++ template metaprogramming**.
-
-By selecting queue characteristics at compile time, the compiler can:
-
-- Remove unused branches and modes
-- Apply aggressive optimizations
-- Generate highly specialized data structures for each use case
-
-The user specifies the mode, capacity, concurrency type, and blocking behavior through template parameters, enabling maximum performance without sacrificing flexibility.
-
----
-
-## Teams for the Project and Schedule
-
-This is the GitHub repository (will add hyperlink later) for the project. The repository is currently private and will be made public after **TBD**. (I am currently figuring some things out about the implementation so once everything is final, I'll make it public.)
-
-Participants are divided into teams with assigned Points of Contact (POCs). These POCs are solely for the sake of building responsibility for the project.
-
-### Team Assignments
-
-| Team | Members | POC |
-|-----|--------|-----|
-| Team A | Aryan Gupta, Naveen, Rishit, Keshav | Aryan Gupta |
-| Team B | Ritesh, Abhiraj, Abhigyan, Ritwik, Prabhnoor | Ritesh |
-| Team C | Tushar, Avanish, Mehul, Aryan Chakravorty | Aryan Chakravorty |
-
----
-
-## Session Plans
+**Since I was also teaching C++ concurrency along with the project to my juniors in Coding Club, IIT Guwahati; I thought of adding all my video lectures and slides below. Feel free to watch :)
 
 | Date | Time | Session Name | PDF Link | Video Link |
 |-----|---------|-------------|
@@ -237,27 +211,6 @@ Participants are divided into teams with assigned Points of Contact (POCs). Thes
 | 24th January 2026 | 3 PM to 4:30 PM | Shared data, race conditions and std::mutex | [Link](https://drive.google.com/file/d/1Z2fe-kMtei0qSuh0_Cl4pnsMBKS3FWSG/view?usp=sharing) | [Link](https://drive.google.com/file/d/1aWfwzUj9FXg3cLgam6bMdRSHNm6anTr_/view?usp=sharing) |
 | 28th January 2025 | 10.05 PM to 11.30 PM | Synchronization and Condition variables | [Link](https://drive.google.com/file/d/1UfJikRmcpD7pZXdVaVLGIEW_3_KSDoPz/view?usp=sharing) | [Link](https://drive.google.com/file/d/1iWKUjQOzADzqEfxXT3rEqYes8lwHwSBA/view?usp=sharing) |
 | Till 4th Feb 2026 | - | CppCon 2017 "C++ atomics, from basic to advanced. What do they really do?" | - | [Link](https://www.youtube.com/watch?v=ZQFzMfHIxng)
-| 21st Feb 2026 | 3.30 PM to 5.00 PM | C++ Memory Model and std::atomic - Part 1 | [Link](https://drive.google.com/file/d/1DXF0yfzV6Y7xqhvWU7t_eUg8v16Jl3Ji/view?usp=sharing) | [Link](https://drive.google.com/file/d/1N_qSr-fl-aBynR5yfkntmMPyqeRC_8Y2/view?usp=sharing) |
-| TBD | 9 PM to 10 PM | C++ Memory Model and std::atomic - Part 2 | Link | Link |
-| TBD | 9 PM to 10 PM | Project Description | Link | Link |
-| TBD | 9 PM to 10 PM | Buffer | Link | Link |
-| TBD | 9 PM to 10 PM | Template Metaprogramming - Part 1 (later) | Link | Link |
-| TBD | 9 PM to 10 PM | Template Metaprogramming - Part 2 (later) | Link | Link |
-| TBD | 9 PM to 10 PM | Template Metaprogramming - Part 3 (later) | Link | Link |
-
-### Weekly Targets
-
-| Week | Duration | Team Targets |
-|-----|---------|-------------|
-| Week 1 | 8th Dec ’25 – 14th Dec ’25 | Complete CPP101 (All Teams) |
-| Week 2 | 15th Dec ’25 – 21st Dec ’25 | Complete CPP101 (All Teams) |
-| Week 3 | 22nd Dec ’25 – 28th Dec ’25 | Complete CPP101 (All Teams) |
-| Week 4 | 29th Dec ’25 – 4th Jan ’26 | Complete CPP101 (All Teams) |
-| Week 5 | 5th Jan ’26 – 11th Jan ’26 | Complete CPP101 (All Teams) |
-| Week 6 | 12th Jan ’26 – 18th Jan ’26 | Complete CPP101 (All Teams) |
-| Week 7 | 19th Jan ’26 – 25th Jan ’26 | Sessions |
-| Week 8 | 26th Jan ’26 – 1st Feb ’26 | Sessions |
-
-I'll add weekly targets when we start the project. 
+| 21st Feb 2026 | 3.30 PM to 5.00 PM | C++ Memory Model and std::atomic | [Link](https://drive.google.com/file/d/1DXF0yfzV6Y7xqhvWU7t_eUg8v16Jl3Ji/view?usp=sharing) | [Link](https://drive.google.com/file/d/1N_qSr-fl-aBynR5yfkntmMPyqeRC_8Y2/view?usp=sharing) |
 
 ---
